@@ -1,27 +1,41 @@
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
-}
-
-.blue-color{
-    background-color: rgb(23, 23, 109);
-    color: white;
+    margin: 0;
+    padding: 0;
     font-family: roboto;
-    
 }
-
-
+header{
+    text-align: center;
+}
+.atrib-flex{
+    display: flex;
+}
+.s-evenly{
+    justify-content: space-evenly;
+}
+.blue-color{
+    background: url(https://i2.wp.com/www.perroazul.mx/wp-content/uploads/2018/05/fondo-banner-whatsapp.png?fit=940%2C282&ssl=1);
+    color: white;
+    padding: 15px;
+}
 .blue-color a{
     color: white;
     font-family: roboto;
     text-decoration: none;
 }
-
 .card{
-    display: flex;
+    padding: 15px;
+    margin: 15px;
 }
-
 #container{
     justify-content: space-evenly;
+}
+aside div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 130px;
+}
+aside{
+    display:flex; 
+    justify-content: flex-end;
 }
